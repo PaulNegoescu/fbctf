@@ -53,7 +53,7 @@ function package() {
 
 function install_unison() {
   cd /
-  dl_pipe "https://www.archlinux.org/packages/extra/x86_64/unison/download/" | sudo tar Jx
+  dl_pipe "https://eu.mirror.archlinuxarm.org/armv7h/extra/unison-2.51.2-10-armv7h.pkg.tar.xz" | sudo tar Jx
 }
 
 function repo_osquery() {
